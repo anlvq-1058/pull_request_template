@@ -1,17 +1,13 @@
 ## Related Tickets
-- [#Ticket ID](https://edu-redmine.sun-asterisk.vn/issues/???)
+- [#TicketID](https://edu-redmine.sun-asterisk.vn/issues/???)
 
-## WHAT
+## WHAT (optional)
+- Change number items `completed/total` in admin page.
 
 ## HOW
+- I edit js file, inject not_vary_normal items in calculate function.
 
-## WHY
+## WHY (optional)
+- Because in previous version - number just depends on `normal` items. But in new version, we have `state` and `confirm_state` depends on both `normal` + `not_normal` items.
 
 ## Evidence (Screenshot or Video)
-
-## Performance (Optional)
-- [ ] Resolved n + 1 query
-
-- [ ] Time run rake task : 1000 ms
-
-- Generated SQL query
